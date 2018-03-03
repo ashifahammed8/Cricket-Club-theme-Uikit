@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cricket Club Uikit</title>
+	<link rel="stylesheet" href="assets/uikit/css/uikit.css">
+	<link rel="stylesheet" href="assets/uikit/css/components/dotnav.min.css"/>
+	<link rel="stylesheet" href="assets/uikit/css/components/slideshow.min.css"/>
+	<link rel="stylesheet" href="assets/uikit/css/components/slidenav.min.css"/>
+	<link rel="stylesheet" href="assets/uikit/css/components/sticky.min.css"/>
+	<!-- Fancy Box Link -->
+    <link rel="stylesheet" type="text/css" href="assets/fancybox/fancy/css/main.css"/>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+		<!-- Navigation Menu -->
+		<nav class="uk-navbar" data-uk-sticky >
+		  <div class="uk-container uk-container-center" >
+		    <a href="index.php" class="uk-navbar-brand uk-hidden-small"><img src="assets/images/logo/logo.png" alt="logo"></a>
+		    <ul class="uk-navbar-nav uk-hidden-small" >
+		        <li><a href="#">Home</a></li>
+		        <!-- This is the container enabling the JavaScript -->
+		        <li class="uk-parent" data-uk-dropdown="{mode:'click'}">
+
+		            <!-- This is the menu item toggling the dropdown -->
+		            <a href="">About Us</a>
+
+		            <!-- This is the dropdown -->
+		            <div class="uk-dropdown uk-dropdown-navbar">
+		                <ul class="uk-nav uk-nav-navbar">
+		                    <li><a href="">Mission</a></li>
+		                    <li><a href="">Vision</a></li>
+		                    <li><a href="">Histroy</a></li>
+		                </ul>
+		            </div>
+		        </li>
+
+		        <!-- This is the container enabling the JavaScript -->
+		        <li class="uk-parent" data-uk-dropdown>
+
+		            <!-- This is the menu item toggling the dropdown -->
+		            <a href="">Services</a>
+
+		            <!-- This is the dropdown -->
+		            <div class="uk-dropdown uk-dropdown-navbar">
+		                <ul class="uk-nav uk-nav-navbar">
+		                    <li><a href="">Team Coaching</a></li>
+		                    <li><a href="">Individual Coaching</a></li>
+		                    <li><a href="">Premium Coaching</a></li>
+		                    <li><a href="">State Level Coaching</a></li>
+		                    <li><a href="">GYM</a></li>
+		                    <li><a href="">Video Session</a></li>
+		                </ul>
+		            </div>
+		        </li>
+
+		        <!-- This is the container enabling the JavaScript -->
+		        <li class="uk-parent" data-uk-dropdown>
+
+		            <!-- This is the menu item toggling the dropdown -->
+		            <a href="">Admission</a>
+
+		            <!-- This is the dropdown -->
+		            <div class="uk-dropdown uk-dropdown-navbar">
+		                <ul class="uk-nav uk-nav-navbar">
+		                    <li><a href="">Procedure</a></li>
+		                    <li><a href="">Online Registration</a></li>
+		                    <li><a href="">Download Registration Form</a></li>
+		                    <li><a href="">Administration Contact</a></li>
+		                    <li><a href="">Schedule</a></li>
+		                </ul>
+		            </div>
+		        </li>
+
+		        <!-- This is the container enabling the JavaScript -->
+		        <li class="uk-parent" data-uk-dropdown>
+
+		            <!-- This is the menu item toggling the dropdown -->
+		            <a href="">Infrastructure</a>
+
+		            <!-- This is the dropdown -->
+		            <div class="uk-dropdown uk-dropdown-navbar">
+		                <ul class="uk-nav uk-nav-navbar">
+		                    <li><a href="">Ground Facilities</a></li>
+		                    <li><a href="">Net Practices Pitches</a></li>
+		                    <li><a href="">Advance Training Equements</a></li>
+		                    <li><a href="">Advance gym Facilities</a></li>
+		                </ul>
+		            </div>
+		        </li>
+		        <li><a href="#">Gallery</a></li>
+				<li><a href="#">Blogs and News</a></li>
+		        <li><a href="#">Contact</a></li>
+		    </ul>
+
+		    <!-- Navbar right -->
+		    <div class="uk-navbar-flip uk-hidden-small">
+		        <ul class="uk-navbar-nav">
+		            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook" style="color: #3b5998; width: 20; height: 20px;""></i></a></li>
+		            <li><a href="https://in.linkedin.com/" target="_blank"><i class="fab fa-linkedin" style="color: #0084bf; width: 20; height: 20px;""></i></a></li>
+		            <li><a href="https://plus.google.com/" target="_blank"><i class="fab fa-google-plus-square" style="color: #dc5044; width: 20; height: 20px;"></i></a></li>
+		        </ul>
+		    </div>
+		    <!-- End of Right navbar -->
+
+
+		    <!-- For Mobile devices-->
+		    <a href="#mobilemenu" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+		    <div class="uk-navbar-content uk-navbar-center uk-visible-small"><img src="assets/images/logo/logo2.png" alt="logo"></div>
+		    </div>
+		</nav>
+		
+
+		<div id="mobilemenu" class="uk-offcanvas">
+		    <div class="uk-offcanvas-bar">
+		      <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+		        <li><a href="#">Home</a></li>
+		        <li class="uk-parent"><a href="#">About</a>
+		        	<ul class="uk-nav-sub">
+		        		<li><a href="">Mission</a></li>
+		                <li><a href="">Vision</a></li>
+		                <li><a href="">Histroy</a></li>
+		        	</ul>
+		        </li>
+		        <!-- This is the container enabling the JavaScript -->
+		        <li class="uk-parent">
+		            <!-- This is the menu item toggling the dropdown -->
+		            <a href="#">Services</a>
+		            <!-- This is the dropdown -->
+	                <ul class="uk-nav-sub">
+	                    <li><a href="">Team Coaching</a></li>
+	                    <li><a href="">Individual Coaching</a></li>
+	                    <li><a href="">Premium Coaching</a></li>
+	                    <li><a href="">State Level Coaching</a></li>
+	                    <li><a href="">GYM</a></li>
+	                    <li><a href="">Video Session</a></li>
+	                </ul>
+		        </li>
+		        <!-- This is the container enabling the JavaScript -->
+		        <li class="uk-parent">
+		            <!-- This is the menu item toggling the dropdown -->
+		            <a href="#">Admission</a>
+		            <!-- This is the dropdown -->
+	                <ul class="uk-nav-sub">
+	                    <li><a href="">Procedure</a></li>
+		                <li><a href="">Online Registration</a></li>
+		                <li><a href="">Download Registration Form</a></li>
+		                <li><a href="">Administration Contact</a></li>
+		                <li><a href="">Schedule</a></li>
+	                </ul>
+		        </li>
+		        <li class="uk-parent">
+		            <!-- This is the menu item toggling the dropdown -->
+		            <a href="#">Infrastructure</a>
+		            <!-- This is the dropdown -->
+	                <ul class="uk-nav-sub">
+	                    <li><a href="">Ground Facilities</a></li>
+		                <li><a href="">Net Practices Pitches</a></li>
+		                <li><a href="">Advance Training Equements</a></li>
+		                <li><a href="">Advance gym Facilities</a></li>
+	                </ul>
+		        </li>
+		        <li><a href="#">Gallery</a></li>
+				<li><a href="#">Blogs and News</a></li>
+		        <li><a href="#">Contact</a></li>
+		    </ul>
+		    </div>
+		</div> 
+		<!-- End of the Navigation Menu -->
+
+
+		<!-- Slideshow -->
+		<div class="uk-slidenav-position" data-uk-slideshow="{kenburns:true, autoplay:true,animation: 'scale'}">
+		    <ul class="tm-home-slideshow uk-slideshow  uk-overlay-active" data-uk-slideshow " >
+		        <li>
+		          <img src="assets/images/slider/slide-1.jpg">
+		          <div class="uk-overlay-panel uk-overlay-center uk-overlay-slide-top uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
+		              <div>
+		              	<img src="assets/images/SACHIN-PHOTO3.png" alt="SACHIN-PHOTO">
+		              </div>
+		          </div>
+		        </li>
+		        <li>
+		          <img src="assets/images/slider/slide-2.jpg">
+		          <div class="uk-overlay-panel uk-overlay-center uk-overlay-slide-bottom uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
+		              <div>
+		              	<img src="assets/images/dhoni3.png" alt="SACHIN-PHOTO">
+		             </div>
+		          </div>
+		        </li>
+		        <li>
+		          <img src="assets/images/slider/slide-3.jpg">
+		          <div class="uk-overlay-panel uk-overlay-center uk-overlay-slide-bottom uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
+		              <div>
+		              	<img src="assets/images/rahul.png" alt="SACHIN-PHOTO">
+		             </div>
+		          </div>
+		        </li>
+		        <li>
+		          <img src="assets/images/slider/slide-4.jpg">
+		          <div class="uk-overlay-panel uk-overlay-center uk-overlay-slide-bottom uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
+		              <div>
+		              	<img src="assets/images/virat.png" alt="SACHIN-PHOTO">
+		             </div>
+		          </div>
+		        </li>
+		    </ul>
+		    <!-- Slidenav button -->
+		    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+		    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+		    <!-- Dotnav button -->
+		    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+		        <li data-uk-slideshow-item="0"><a href=""></a></li>
+		        <li data-uk-slideshow-item="1"><a href=""></a></li>
+		        <li data-uk-slideshow-item="2"><a href=""></a></li>
+		        <li data-uk-slideshow-item="3"><a href=""></a></li>
+		    </ul>
+		</div>
+		<!-- END of the slideshow -->
+
+		<!-- Section One -->
+		<section class="section1">
+			<div class="uk-container uk-container-center">
+				<div class="uk-grid">
+				    <div class="uk-width-large-1-1 uk-text-center">
+				    	<h1 class="uk-h1">Welcome to Our Cricket Academy</h1>
+				    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati fugiat eligendi nam, aut sequi sed id alias et ex corrupti sint perspiciatis illo quis explicabo a adipisci deserunt animi numquam similique beatae dolorem. Natus ab laudantium nemo eum ad quibusdam maiores nostrum minima. Porro, minus. Facilis magnam, facere maiores ut!</p>
+				    </div>
+				</div>
+				<div class="uk-grid">
+				    <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1  uk-text-center" data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: true}">
+				    	<a class="uk-thumbnail" href="">
+						    <img src="assets/images/traning.jpg" alt="traning">
+						    <div class="uk-thumbnail-caption"><h3>Traning</h3></div>
+						</a>
+				    </div>
+				    <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1  uk-text-center" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: true}">
+				    	<a class="uk-thumbnail" href="">
+						    <img src="assets/images/ground.jpg" alt="ground">
+						    <div class="uk-thumbnail-caption"><h3>Ground</h3></div>
+						</a>
+				    </div>
+				    <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1  uk-text-center" data-uk-scrollspy="{cls:'uk-animation-slide-right', repeat: true}">
+				    	<a class="uk-thumbnail" href="">
+						    <img src="assets/images/camp.jpg" alt="camp">
+						    <div class="uk-thumbnail-caption"><h3>Camp</h3></div>
+						</a>
+				    </div>
+				</div>
+				<div class="uk-grid">
+				    <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1  uk-text-center" data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: true}">
+				    	<a class="uk-thumbnail" href="">
+						    <img src="assets/images/Infrastructure.jpg" alt="Infrastructure">
+						    <div class="uk-thumbnail-caption"><h3>Infrastructure</h3></div>
+						</a>
+				    </div>
+				    <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1  uk-text-center" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: true}">
+				    	<a class="uk-thumbnail" href="">
+						    <img src="assets/images/tournament.jpg" alt="tournament">
+						    <div class="uk-thumbnail-caption"><h3>Tournament</h3></div>
+						</a>
+				    </div>
+				    <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1  uk-text-center" data-uk-scrollspy="{cls:'uk-animation-slide-right', repeat: true}">
+				    	<a class="uk-thumbnail" href="">
+						    <img src="assets/images/guest.jpg"  alt="guest">
+						    <div class="uk-thumbnail-caption"><h3>Special Guest</h3></div>
+						</a>
+				    </div>
+				</div>
+			</div>
+		</section>
+		<!-- End of the Section One -->
+
+		<!-- Section Two -->
+		<section class="section2">
+			<div class="uk-container uk-container-center">
+				<div class="uk-grid" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: true}">
+				    <div class="uk-width-large-1-1 uk-text-center">
+				    	<h1 class="uk-h1">Our Cricket Academy Gallery</h1>
+				    </div>
+				</div>
+				<div class="uk-grid" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true}">
+				    <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1  uk-text-center">
+				    	<figure class="uk-overlay uk-overlay-hover">
+						    <a href="assets/images/photo1.jpg" class="thumbnail fancybox" rel="group">
+						    	<img class="uk-overlay-spin" src="assets/images/photo1.jpg"  alt="guest">
+						    <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-background uk-overlay-slide-bottom">photo1</figcaption></a>
+						</figure>
+					</div>
+				    <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1  uk-text-center">
+				    	<figure class="uk-overlay uk-overlay-hover">
+						    <a href="assets/images/photo2.jpg" class="thumbnail fancybox" rel="group">
+						    	<img class="uk-overlay-spin" src="assets/images/photo2.jpg"  alt="guest">
+						    <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-background uk-overlay-slide-bottom">photo2</figcaption></a>
+						</figure>
+				    </div>
+				    <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1  uk-text-center">
+				    	<figure class="uk-overlay uk-overlay-hover">
+						    <a href="assets/images/photo3.jpg" class="thumbnail fancybox" rel="group">
+						    	<img class="uk-overlay-spin" src="assets/images/photo3.jpg"  alt="guest">
+						    <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-background uk-overlay-slide-bottom">photo3</figcaption></a>
+						</figure>
+				    </div>
+				    <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1  uk-text-center">
+				    	<figure class="uk-overlay uk-overlay-hover">
+						    <a href="assets/images/photo4.jpg" class="thumbnail fancybox" rel="group">
+						    	<img class="uk-overlay-spin" src="assets/images/photo4.jpg"  alt="guest">
+						    <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-background uk-overlay-slide-bottom">photo4</figcaption></a>
+						</figure>
+				    </div>
+				</div>
+				<div class="uk-grid" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true}">
+				    <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1  uk-text-center">
+				    	<figure class="uk-overlay uk-overlay-hover">
+						    <a href="assets/images/photo5.jpg" class="thumbnail fancybox" rel="group">
+						    	<img class="uk-overlay-spin" src="assets/images/photo5.jpg"  alt="guest">
+						    <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-background uk-overlay-slide-bottom">photo5</figcaption></a>
+						</figure>
+				    </div>
+				    <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1  uk-text-center">
+				    	<figure class="uk-overlay uk-overlay-hover">
+						    <a href="assets/images/photo6.jpg" class="thumbnail fancybox" rel="group">
+						    	<img class="uk-overlay-spin" src="assets/images/photo6.jpg"  alt="guest">
+						    <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-background uk-overlay-slide-bottom">photo6</figcaption></a>
+						</figure>
+				    </div>
+				    <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1  uk-text-center">
+				    	<figure class="uk-overlay uk-overlay-hover">
+						    <a href="assets/images/photo7.jpg" class="thumbnail fancybox" rel="group">
+						    	<img class="uk-overlay-spin" src="assets/images/photo7.jpg"  alt="guest">
+						    <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-background uk-overlay-slide-bottom">photo7</figcaption></a>
+						</figure>
+				    </div>
+				    <div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-small-1-1  uk-text-center">
+				    	<figure class="uk-overlay uk-overlay-hover">
+						    <a href="assets/images/photo8.jpg" class="thumbnail fancybox" rel="group">
+						    	<img class="uk-overlay-spin" src="assets/images/photo8.jpg"  alt="guest">
+						    <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-background uk-overlay-slide-bottom">photo8</figcaption></a>
+						</figure>
+				    </div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Section Two -->
+
+
+		<!-- Section Three -->
+		<section class="section3">
+			<div class="uk-container uk-container-center">
+				<div class="uk-grid">
+				    <div class="uk-width-large-1-1 uk-text-center" data-uk-scrollspy="{cls:'uk-animation-slide-top', repeat: true}">
+				    	<h1 class="uk-h1">Cricket Club</h1>
+				    </div>
+				</div>
+				<div class="uk-grid">
+				    <div class="uk-width-large-1-2 uk-width-medium-1-2 uk-width-small-1-1 uk-text-center" data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: true}">
+				    	<div class="uk-panel uk-panel-box"><h2 class="uk-h2">Our Mission</h2></div>
+				    	<p class="tm-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem aperiam dicta culpa, perspiciatis officia voluptatum repellendus explicabo architecto repudiandae, hic. Incidunt aut temporibus, ullam iusto perspiciatis? Ducimus perferendis consequuntur repudiandae necessitatibus sint odio, porro, in ipsam consectetur quia, dignissimos, voluptate nisi voluptatum harum quas autem? Ad possimus dolorum nam accusantium.</p>
+				    	<p class="tm-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem aperiam dicta culpa, perspiciatis officia voluptatum repellendus explicabo architecto repudiandae, hic. Incidunt aut temporibus, ullam iusto perspiciatis? Ducimus perferendis consequuntur.Incidunt aut temporibus, ullam iusto perspiciatis.</p>
+				    	
+				    	<div class="uk-panel uk-panel-box uk-panel-box-primary">
+				    		<q>My aim is to play Test matches. For me, there is a different feel of Test cricket as it tests your character. You come to know about your mental toughness, and most importantly, there is another level of satisfaction as a player. </q>
+				    	</div>
+					</div>
+				    <div class="uk-width-large-1-2 uk-width-medium-1-2 uk-width-small-1-1  uk-text-center" data-uk-scrollspy="{cls:'uk-animation-slide-right', repeat: true}">
+				    	<figure>
+						    <img class="uk-overlay-spin" src="assets/images/cricket.jpg" alt="guest">
+						</figure>
+				    </div>
+				</div>
+				<div class="uk-grid">
+				    <div class="uk-width-large-1-2 uk-width-medium-1-2 uk-width-small-1-1" data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: true}">
+				    	<figure>
+						    <img class="uk-overlay-spin" src="assets/images/cricket2.jpg" alt="guest">
+						</figure>
+					</div>
+				    <div class="uk-width-large-1-2 uk-width-medium-1-2 uk-width-small-1-1  uk-text-center" data-uk-scrollspy="{cls:'uk-animation-slide-right', repeat: true}">
+				    	<div class="uk-panel uk-panel-box"><h2 class="uk-h2">Our Vision</h2></div>
+				    	<p class="tm-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem aperiam dicta culpa, perspiciatis officia voluptatum repellendus explicabo architecto repudiandae, hic. Incidunt aut temporibus, ullam iusto perspiciatis? Ducimus perferendis consequuntur repudiandae necessitatibus sint odio, porro, in ipsam consectetur quia, dignissimos, voluptate nisi voluptatum harum quas autem? Ad possimus dolorum nam accusantium.</p>
+				    	<p class="tm-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem aperiam dicta culpa, perspiciatis officia voluptatum repellendus explicabo architecto repudiandae, hic. Incidunt aut temporibus, ullam iusto perspiciatis? Ducimus perferendis consequuntur.Incidunt aut temporibus, ullam iusto perspiciatis.</p>
+				    	
+				    	<div class="uk-panel uk-panel-box uk-panel-box-primary">
+				    		<q>My aim is to play Test matches. For me, there is a different feel of Test cricket as it tests your character. You come to know about your mental toughness, and most importantly, there is another level of satisfaction as a player. </q>
+				    	</div>
+				    </div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Section Three -->
+
+
+		<!-- Footer Goes here -->
+		<footer class="tm-footer uk-block uk-block-secondary uk-contrast uk-hidden-small">
+			<div class="uk-container uk-container-center">
+				<div class="uk-grid uk-hidden-small">
+				    <div class="uk-width-1-2"> 
+				    Follow Us: 
+				    	<a href="#"><i class="uk-icon-twitter"></i></a>
+		                <a href="#"><i class="uk-icon-facebook"></i></a>
+		                <a href="#"><i class="uk-icon-youtube-play"></i></a>
+					</div>
+				    <div class="uk-width-1-2 uk-text-right">
+				     &copy; Copyright Cricket Club. All Reserved 2017.
+				 	</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End of the footer -->
+
+		<!-- Mobile footer -->
+		<footer class="tm-footer uk-block uk-block-secondary uk-contrast uk-visible-small" data-uk-sticky>
+			<div class="uk-container uk-container-center">
+				<div class="uk-grid uk-visible-small">
+				    <div class="uk-width-1-1 uk-text-center"> 
+				    Follow Us: &nbsp;
+				    	<a href="#"><i class="uk-icon-twitter"></i></a>
+		                <a href="#"><i class="uk-icon-facebook"></i></a>
+		                <a href="#"><i class="uk-icon-youtube-play"></i></a>
+					</div>
+				    <div class="uk-width-1-1 uk-text-center">
+				     &copy; copyright All Reserved 2016.
+				 	</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End mobile footer -->
+	
+
+
+	<script src="assets/jquery/jquery.js"></script>
+	<script src="assets/uikit/js/uikit.js"></script>
+	<!-- Link to slideshow JS -->
+	<script type="text/javascript" src="assets/uikit/js/components/slideshow.min.js"></script>  
+	<script type="text/javascript" src="assets/uikit/js/components/slideshow-fx.min.js"></script>
+	<script type="text/javascript" src="assets/uikit/js/components/sticky.js"></script>
+	<script type="text/javascript" src="assets/uikit/js/components/lightbox.js"></script>  
+
+	<!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="assets/fancybox/fancy/lib/query.mousewheel-3.0.6.pack.js"></script>			
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="assets/fancybox/fancy/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="assets/fancybox/fancy/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+    <script type="text/javascript" src="assets/fancybox/fancy/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+
+
+
+	<script>
+	 
+	   $(document).ready(function() {
+	     $(".fancybox").fancybox();
+	   });
+	 </script>
+
+
+
+
+
+</body>
+</html>

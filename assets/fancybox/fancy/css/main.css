@@ -1,0 +1,19 @@
+.thumbnail {
+	
+	width: 100%;
+	overflow: hidden;
+}
+
+
+#gallery {
+
+	-webkit-transition:all 0.30 ease;
+}
+
+
+#gallery:hover {
+
+	transform: scale(1.2);
+}
+
+
